@@ -1,0 +1,336 @@
+<html>
+<head>
+	<link rel="stylesheet" href="shop.css">
+	<script src="shop.js"> </script>
+	<link type="Image/x-icon" href="favicon.png" rel="icon">
+	<title> Shirtcat </title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+	<header>
+		<img class="cat" width="200px" height="200px" src="cat.png">
+		<h2 class="animate__animated animate__flipInX animate__delay-2s animate__slower animate__infinite"> Любые футболки на ваш вкус! </h2>
+		<div class="price">
+			<p> Обычная цена: <s> 1499 руб. </s>
+			 <br> Цена по спецпредложению: <br> <span> <b> 499 <sup> руб. </sup> </b> </span> </p>
+		<button onmouseover="btn_on()" onmouseleave="btn_off()" id="cheep"> Почему так дешево? </button>
+		</div>
+		<div class="plus">
+			<figure>
+				<img src="https://www.pngplay.com/wp-content/uploads/7/Discount-PNG-Photos.png">
+				<figcaption> Низкие цены </figcaption>
+			</figure>
+			<figure>
+				<img src="https://cdn-icons-png.flaticon.com/512/1670/1670915.png">
+				<figcaption> Быстрая доставка </figcaption>
+			</figure>
+			<figure>
+				<img src="https://cdn-icons-png.flaticon.com/512/15/15643.png">
+				<figcaption> Высокие рейтинги </figcaption>
+			</figure>
+		</div>
+	</header>
+	<main>
+		<img onmouseover="print_help()" class="help" width="50px" height="55px" src="https://cdn-icons-png.flaticon.com/512/78/78925.png">
+		<img onmouseover="calculator()" class="calc" width="50px" height="55px" src="https://cdn-icons-png.flaticon.com/512/14/14975.png">
+		<img onmouseover="note()" class="note" width="50px" height="55px" src="https://cdn-icons-png.flaticon.com/512/6681/6681075.png">
+		<section>
+		<h2> Футболки </h2>
+		<p> <center> 100% хлопок, унисекс </center> </p> 
+		<div class="popular">
+		<article>
+			<img onmouseover="stroka()" src="https://storage.vsemayki.ru/images/0/3/3095/3095421/previews/people_4_manshortfull_front_white_700.jpg">
+			<center> <p> Разлом неоновых плит в трехмерном </p> </center>
+			<form>
+				<select>
+					<option> XS (44-46) </option>
+					<option> S (48) </option>
+					<option> M (50) </option>
+					<option> L (52) </option>
+				</select>
+			</form>
+			<p class="cost"> <s> 1499 руб </s> <br>
+			<b> 499 руб </b> </p>
+			<center> <button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button> </center> 
+		</article>
+		<article>
+			<img src="https://storage.vsemayki.ru/images/0/1/1941/1941345/previews/people_4_manshortfull_front_white_700.jpg">
+			<center> <p> Разлом неоновых плит в трехмерном </p> </center>
+			<form>
+
+				<select>
+
+					<option> XS (44-46)</option>
+
+					<option> S (48)</option>
+
+					<option> M (50)</option>
+
+					<option> L (52) </option>
+
+				</select>
+
+					</form>
+			<p class="cost"> <s> 1499 руб </s> <br>
+			<b> 499 руб </b> </p>
+			<center> <button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button> </center>
+		</article>
+		</div>
+		</section>
+		<center> <p class="size"> Как выбрать размер? <span onmouseover="blue()" onmouseout="black()" id="rec"> Наши рекомендации </span> </p> </center>
+		<section class="order">
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/3/3141/3141627/previews/people_4_womanshort_oversize_front_darkblue_700.jpg">
+				<p> Силуэт черного кота </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/3/3217/3217031/previews/people_14_child_tshirt_front_white_700.jpg">
+				<p> Капибара </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/2/2978/2978903/previews/people_11_womanshortfull_front_white_700.jpg">
+				<p> Коты инь-янь</p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/3/3383/3383561/previews/people_7_manshort_front_black_700.jpg">
+				<p> Кот самурай </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/1/1010/1010896/previews/people_4_manshortfull_front_white_700.jpg">
+				<p> Дым </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/1/1727/1727245/previews/people_4_manshortfull_front_white_700.jpg">
+				<p> Крик котика </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/3/3176/3176105/previews/people_7_manshort_front_black_700.jpg">
+				<p> Котенок игроман </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/2/2140/2140801/previews/people_7_manshort_front_black_700.jpg">
+				<p> South park </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/3/3067/3067793/previews/people_7_manshort_front_black_700.jpg">
+				<p> Mr beast Japan </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/3/3098/3098907/previews/people_4_manshortfull_front_white_700.jpg">
+				<p> Корпус бойни демонов </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/1/1331/1331383/previews/people_2_tshirt_oversize_front_black_700.jpg">
+				<p> Pink Floyd </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+			<article>
+				<img src="https://storage.vsemayki.ru/images/0/3/3274/3274955/previews/people_4_womanshort_oversize_front_melange_700.jpg">
+				<p> Милый белый зайчик с сердечками </p>
+				<form>
+					<select>
+						<option> XS (44-46) </option>
+						<option> S (48) </option>
+						<option> M (50) </option>
+						<option> L (52) </option>
+					</select>
+				</form>
+				<p class="cost"> <s> 1499 руб </s> <br>
+				<b> 499 руб </b> </p>
+				<button onclick="alert('Добавлено в корзину')"> Добавить в заказ </button>
+			</article>
+		</section>
+		<div class="colors">
+			<div class="light">
+				<p> Top <br>
+				Fashion <br>
+				Trends <br> </p>
+				<img width="350px" height="370px" src="https://content1.rozetka.com.ua/goods/images/big/195877096.png">
+			</div>
+			<div class="dark">
+				<p class="minimalism"> minimalism </p>
+				<p> Shirtcat предлагает большой выбор молодежной одежды и аксессуаров. В ассортименте женские и мужские коллекции одежды в стиле casual и life-style, таких хорошо известных торговых марок как Lee, Time Zone, Wrangler, Mavensi, Iceboys, Miss Me и другие. Одежда марки отличается оригинальным дизайном и отменным качеством. Пользуется большой популярностью не только в России, но и за ее пределами. </p>
+			</div>
+		</div>
+		<h2> Ваш заказ </h2>
+		<form>
+			<fieldset>
+				<legend> Оформление заказа </legend> 
+				<div class="ask">
+					<div>
+						<label> Имя <br> <input type="text"> </label> <br>
+						<label> Фамилия <br>  <input type="text">  </label> <br>
+						<label> Отчество <br> <input type="text">  </label> <br>
+					</div>
+					<div>
+						<label>  Эл. почта <br> <input type="email"> </label> <br>
+						<label> Город <br> <input type="text"> </label> <br>
+						<label> Tелефон <br>  <input type="tel">  </label> <br>
+					</div>
+				</div>
+				<font color="darkgreen"> Оплатить онлайн </font>
+				<hr>
+				<center> <button onmouseover="change_style()" id="send" onclick="prompt('Номер карты')"> Отправить </button> </center>
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+		<div class="info">
+			<div>
+				<p class="name"> <img src="favicon.png"> 
+				<span> Shirtcat </span> </p>
+				<p> Оптовое производство и продажа трикотажа. Футболки, худи, свитшоты и бомберы оптом. <br>
+		 		shirtcat@gmail.com <br>
+		 		+7 499 350 85 23 <br>
+				г. Москва, Балаклавский пр-т, 28Б, стр.1 офис 2 (2-й этаж) </p>
+			</div>
+			<div>
+				<p> О КОМПАНИИ <br> <br>
+				О нас <br> <br>
+				Доставка <br> <br>
+				Контакты </p>
+			</div>
+			<div>
+				<p> УСЛУГИ <br> <br>
+				Шелкография <br> <br>
+				Сублимация <br> <br>
+				Вышивка <br> <br>
+				Термоперенос <br> <br>
+				Фулфилмент </p>
+			</div>
+			<div>
+				<p> ДОКУМЕНТАЦИЯ <br> <br>
+				Сертификат соотвествия <br> <br>
+				Декларации о соответствии <br> <br>
+				Реквизиты <br> <br>
+				Политика конфиденциальности </p>
+			</div>
+			<div class="contacts">
+				<img src="https://vsememy.ru/kartinki/wp-content/uploads/2023/02/1636080923_2-papik-pro-p-instagram-vektornii-risunok-2.png">
+				<img src="https://www.pngall.com/wp-content/uploads/11/Telegram-PNG-Image-HD.png">
+				<img src="https://www.pngmart.com/files/20/Youtube-Logo-PNG-Background-Image.png">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
